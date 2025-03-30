@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_delete_children=true" audit="true" db_object_id="58184cb48714ea10c8020fe4dabb353e" extends="rm_feature" label="Story" max_length="40" name="rm_story" type="collection">
+        <element label="Solution design" max_length="1000" name="x_snc_nask_relea_0_solution_design" type="string"/>
+        <element dependent="cmdb_ci" dependent_on_field="cmdb_ci" label="Sub Configuration Item" max_length="32" name="x_snc_nask_relea_0_sub_configuration_item" reference="cmdb_ci" type="reference" use_dependent_field="true"/>
+        <element label="Technical design" max_length="10000" name="x_snc_nask_relea_0_technical_design" type="string"/>
+    </element>
+</database>

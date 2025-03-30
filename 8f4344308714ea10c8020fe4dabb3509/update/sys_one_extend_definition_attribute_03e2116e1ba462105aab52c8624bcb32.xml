@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute">
+    <sys_one_extend_definition_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <apply_filter>false</apply_filter>
+        <attribute_label/>
+        <capability display_value="d3ad1d9c1b64ae505aab52c8624bcbb1_Get sto">b6e2d52e1ba462105aab52c8624bcb6a</capability>
+        <choice_list/>
+        <contains_large_input>false</contains_large_input>
+        <data_type>string</data_type>
+        <default_value/>
+        <definition/>
+        <description/>
+        <group/>
+        <hidden>false</hidden>
+        <info/>
+        <label>Story extract STR</label>
+        <mandatory>false</mandatory>
+        <name>output</name>
+        <order/>
+        <schema/>
+        <sys_class_name>sys_one_extend_definition_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 17:48:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03e2116e1ba462105aab52c8624bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>output</sys_name>
+        <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
+        <sys_update_name>sys_one_extend_definition_attribute_03e2116e1ba462105aab52c8624bcb32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 17:48:29</sys_updated_on>
+        <translate>false</translate>
+        <truncate>false</truncate>
+        <type>output</type>
+        <user_query>false</user_query>
+    </sys_one_extend_definition_attribute>
+    <sys_translated_text action="delete_multiple" query="documentkey=03e2116e1ba462105aab52c8624bcb32"/>
+</record_update>

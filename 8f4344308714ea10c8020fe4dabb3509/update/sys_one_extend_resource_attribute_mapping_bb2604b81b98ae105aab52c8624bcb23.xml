@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_resource_attribute_mapping">
+    <sys_one_extend_resource_attribute_mapping action="INSERT_OR_UPDATE">
+        <attribute_value_script><![CDATA[(function execute(currentInputs, context) {
+ return new global.OneExtendEvaluationServiceUtil().getGroundedPrompt(currentInputs); 
+})(currentInputs, context);]]></attribute_value_script>
+        <attribute_value_template/>
+        <attribute_value_type>script</attribute_value_type>
+        <from_resource_mapping/>
+        <resource_attribute_name display_value="grounded_prompt">e0db01d97f14121071cab6257d8665a4</resource_attribute_name>
+        <resource_mapping display_value="Correctness Metric with Golden Response">ab2604b81b98ae105aab52c8624bcb1f</resource_mapping>
+        <sys_class_name>sys_one_extend_resource_attribute_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-03-12 15:28:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bb2604b81b98ae105aab52c8624bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
+        <sys_update_name>sys_one_extend_resource_attribute_mapping_bb2604b81b98ae105aab52c8624bcb23</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-12 15:28:08</sys_updated_on>
+    </sys_one_extend_resource_attribute_mapping>
+</record_update>

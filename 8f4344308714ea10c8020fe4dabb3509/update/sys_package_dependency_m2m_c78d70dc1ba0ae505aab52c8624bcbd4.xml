@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="SDLC - SCRUM" source="com.snc.sdlc.scrum">fbf7c4b48714ea10c8020fe4dabb3500</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-23 16:28:45</sys_created_on>
+        <sys_id>c78d70dc1ba0ae505aab52c8624bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-23 16:28:45</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
