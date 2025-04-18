@@ -2,6 +2,7 @@
     <sys_one_extend_resource_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
         <applicability_condition/>
+        <applicability_condition_expression/>
         <applicability_condition_table/>
         <applicability_failed_policy/>
         <applicability_script><![CDATA[(function(currentInputs, context) {
@@ -13,7 +14,7 @@
     return true;
 })(currentInputs, context);]]></applicability_script>
         <applicability_type/>
-        <depends_on_list>3ca3adee1be462105aab52c8624bcb24</depends_on_list>
+        <depends_on_list/>
         <error_handler_script/>
         <error_policy/>
         <metadata>{"diagramInstanceId":"b526ccb08714ea10c8020fe4dabb35e5"}</metadata>
@@ -25,14 +26,14 @@
         <sys_created_on>2025-03-12 15:28:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>b526ccb08714ea10c8020fe4dabb35e8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Release Notes Genererator</sys_name>
         <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
         <sys_policy/>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_update_name>sys_one_extend_resource_mapping_b526ccb08714ea10c8020fe4dabb35e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-30 19:20:33</sys_updated_on>
+        <sys_updated_on>2025-04-18 17:01:26</sys_updated_on>
     </sys_one_extend_resource_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=b526ccb08714ea10c8020fe4dabb35e8"/>
 </record_update>

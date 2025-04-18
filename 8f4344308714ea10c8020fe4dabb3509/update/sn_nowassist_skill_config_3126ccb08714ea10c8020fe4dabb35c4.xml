@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config">
     <sn_nowassist_skill_config action="INSERT_OR_UPDATE">
         <active>false</active>
-        <description><![CDATA[Generate release notes from the stories associated to a sprint or release]]></description>
+        <description><![CDATA[Generate a list of bulletpoints in a simple, user friendly language from the user stroy extracts porvided in the form of an array of objects.]]></description>
         <in_product_active>false</in_product_active>
         <in_product_roles/>
         <is_template>false</is_template>
@@ -9,17 +9,17 @@
         <nap_skill_applicability/>
         <order>100</order>
         <parent/>
-        <skill_family display_value="Other">a5efaf1c93764210aa5730f16489186d</skill_family>
+        <skill_family display_value="Release Management">33838f248749e210c8020fe4dabb353c</skill_family>
         <skill_id>9d26c8b08714ea10c8020fe4dabb3511</skill_id>
         <skill_table>sys_one_extend_capability</skill_table>
-        <state>0</state>
+        <state>1</state>
         <success_message/>
         <sys_class_name>sn_nowassist_skill_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-12 15:28:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>3126ccb08714ea10c8020fe4dabb35c4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Release Notes Genererator</sys_name>
         <sys_overrides/>
         <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
@@ -27,7 +27,7 @@
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_update_name>sn_nowassist_skill_config_3126ccb08714ea10c8020fe4dabb35c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-12 15:28:01</sys_updated_on>
+        <sys_updated_on>2025-04-18 17:24:09</sys_updated_on>
     </sn_nowassist_skill_config>
     <sys_translated_text action="delete_multiple" query="documentkey=3126ccb08714ea10c8020fe4dabb35c4"/>
 </record_update>

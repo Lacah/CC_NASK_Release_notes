@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_var_set">
+    <sn_nowassist_skill_config_var_set action="INSERT_OR_UPDATE">
+        <config_type display_value="Skill builder Delivery step">7dfdff5893b64210aa5730f164891837</config_type>
+        <description/>
+        <hide_step>false</hide_step>
+        <name>__delivery_step__</name>
+        <order>100</order>
+        <parent/>
+        <screen_id/>
+        <screen_table>sys_ux_macroponent</screen_table>
+        <skill_config display_value="Release Notes Genererator">3126ccb08714ea10c8020fe4dabb35c4</skill_config>
+        <step_completed>false</step_completed>
+        <sys_class_name>sn_nowassist_skill_config_var_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-18 18:00:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>15eb0f2c8749e210c8020fe4dabb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>__delivery_step__</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_var_set_15eb0f2c8749e210c8020fe4dabb355f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-18 18:00:34</sys_updated_on>
+        <title/>
+        <vars/>
+    </sn_nowassist_skill_config_var_set>
+    <sys_translated_text action="delete_multiple" query="documentkey=15eb0f2c8749e210c8020fe4dabb355f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=15eb0f2c8749e210c8020fe4dabb355f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>15eb0f2c8749e210c8020fe4dabb355f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-18 18:00:34</sys_created_on>
+        <sys_id>19eb0f2c8749e210c8020fe4dabb3560</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-18 18:00:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable UI Action">f09e3f9893b64210aa5730f16489189f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>15eb0f2c8749e210c8020fe4dabb355f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-18 18:00:34</sys_created_on>
+        <sys_id>51eb0f2c8749e210c8020fe4dabb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-18 18:00:34</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enable In Product">24c14b967fe85210e98d0b583d8665dd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>15eb0f2c8749e210c8020fe4dabb355f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-18 18:00:34</sys_created_on>
+        <sys_id>9deb0f2c8749e210c8020fe4dabb3560</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-18 18:00:34</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enable NAP">ab5ef79893b64210aa5730f16489185a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>15eb0f2c8749e210c8020fe4dabb355f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-18 18:00:34</sys_created_on>
+        <sys_id>d9eb0f2c8749e210c8020fe4dabb3560</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-18 18:00:34</sys_updated_on>
+        <value>ddebcb2c8749e210c8020fe4dabb3582</value>
+        <variable display_value="UI Action Id">4fee37d893b64210aa5730f164891896</variable>
+    </sys_variable_value>
+</record_update>

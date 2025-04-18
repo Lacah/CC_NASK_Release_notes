@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_resource_attribute_mapping">
+    <sys_one_extend_resource_attribute_mapping action="DELETE">
+        <attribute_value_script><![CDATA[(function execute(currentInputs, context) {
+    /* @param {Object} currentInputs - Inputs provided for the current step.*/
+    /* @param {Object} context - Execution context, which may include:*/
+    /*						   - Previous tool outputs/inputs (e.g., context['ToolName.attributeName'] or context.getValue('ToolName.attributeName')).*/
+    /*						   - Additional context information (e.g., context.getAllValues()).*/
+    /* @returns {Object} - The computed value for the attribute.*/
+    return '';
+})(currentInputs, context);]]></attribute_value_script>
+        <attribute_value_template>New Feature</attribute_value_template>
+        <attribute_value_type>template</attribute_value_type>
+        <from_resource_mapping/>
+        <resource_attribute_name/>
+        <resource_mapping display_value="NewFeatures">3ca3adee1be462105aab52c8624bcb24</resource_mapping>
+        <sys_class_name>sys_one_extend_resource_attribute_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 19:01:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>70a3adee1be462105aab52c8624bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
+        <sys_update_name>sys_one_extend_resource_attribute_mapping_70a3adee1be462105aab52c8624bcb2b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 19:01:31</sys_updated_on>
+    </sys_one_extend_resource_attribute_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</application>
+        <file_path/>
+        <instance_id>962d21c46fcc5e00f51e7b2f5d3ee455</instance_id>
+        <instance_name>hackathon072</instance_name>
+        <name>sys_one_extend_resource_attribute_mapping_70a3adee1be462105aab52c8624bcb2b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_one_extend_resource_attribute_mapping"&gt;&lt;sys_one_extend_resource_attribute_mapping action="INSERT_OR_UPDATE"&gt;&lt;attribute_value_script&gt;&lt;![CDATA[(function execute(currentInputs, context) {
+    /* @param {Object} currentInputs - Inputs provided for the current step.*/
+    /* @param {Object} context - Execution context, which may include:*/
+    /*						   - Previous tool outputs/inputs (e.g., context['ToolName.attributeName'] or context.getValue('ToolName.attributeName')).*/
+    /*						   - Additional context information (e.g., context.getAllValues()).*/
+    /* @returns {Object} - The computed value for the attribute.*/
+    return '';
+})(currentInputs, context);]]&gt;&lt;/attribute_value_script&gt;&lt;attribute_value_template&gt;New Feature&lt;/attribute_value_template&gt;&lt;attribute_value_type&gt;template&lt;/attribute_value_type&gt;&lt;from_resource_mapping/&gt;&lt;resource_attribute_name/&gt;&lt;resource_mapping display_value="NewFeatures"&gt;3ca3adee1be462105aab52c8624bcb24&lt;/resource_mapping&gt;&lt;sys_class_name&gt;sys_one_extend_resource_attribute_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-30 19:01:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;70a3adee1be462105aab52c8624bcb2b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0"&gt;8f4344308714ea10c8020fe4dabb3509&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NASK Release Notes Generator"&gt;8f4344308714ea10c8020fe4dabb3509&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_one_extend_resource_attribute_mapping_70a3adee1be462105aab52c8624bcb2b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-30 19:01:31&lt;/sys_updated_on&gt;&lt;/sys_one_extend_resource_attribute_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1144675264</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>fe6504b08714ea10c8020fe4dabb35f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 19:01:31</sys_created_on>
+        <sys_id>30a3adee1be462105aab52c8624bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195e86e35b50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 19:01:31</sys_updated_on>
+        <type>OneExtend Resource Attribute Mapping</type>
+        <update_guid>34a3adee11e46210684752dd93d8a22c</update_guid>
+        <update_guid_history>34a3adee11e46210684752dd93d8a22c:1144675264</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-18 17:01:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_one_extend_resource_attribute_mapping">sys_one_extend_resource_attribute_mapping</sys_db_object>
+        <sys_id>469ebef9ebbc4d28a8629c1ae1fb7d24</sys_id>
+        <sys_metadata>70a3adee1be462105aab52c8624bcb2b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
+        <sys_scope_delete display_value="">040d16898f794ffb802cdc5800807851</sys_scope_delete>
+        <sys_update_name>sys_one_extend_resource_attribute_mapping_70a3adee1be462105aab52c8624bcb2b</sys_update_name>
+        <sys_update_version display_value="sys_one_extend_resource_attribute_mapping_70a3adee1be462105aab52c8624bcb2b">30a3adee1be462105aab52c8624bcb2d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-18 17:01:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

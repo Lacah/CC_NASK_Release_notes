@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
     <sys_generative_ai_config action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <additional_configurations>{"skill_config_id":"3126ccb08714ea10c8020fe4dabb35c4"}</additional_configurations>
         <ai_suggested>false</ai_suggested>
         <definition>1526ccb08714ea10c8020fe4dabb357b</definition>
@@ -10,27 +10,29 @@
         <model>llm_generic</model>
         <name>Generate release notes</name>
         <parent/>
-        <prompt>You are a seasoned ServiceNow Product Owner for {{product}}. Your task is to write release notes for your platform users to let them know what the recent release contains.
-You are provided extracts of the user stories included in the release in the format of an array of objects that is stringified. These extracts are grouped by their classifications already.
+        <prompt>You are a seasoned ServiceNow Product Owner for Employee Service Manager, including HR Service Delivery and Employee Center. Your task is to write release notes for your platform users to let them know what the recent release contains.
+You are provided extracts of the user stories included in the release in the format of an array of objects that is stringified.
 
-Parse the different extracts. Within the array, each object represents a user story, inluding its 'short_description', 'description' and 'acceptance_criteria'. Your job will be to summarize each object into one short sentence, essentially a bulletpoint. Your users are not very technical, so try to avoid using too much technical jargon. If there are more user stories (objects) that seem to be about the same topic, then comnbine those into one sentence (bulletpoint).
+Parse the stringified array: {{story_extracts}}. Within the array, each object represents a user story, inluding its 'short_description', 'description' and 'acceptance_criteria'. Your job is to summarize each object into maximum one short sentence, or even just to a few words as applicable, essentially a bulletpoint.
+Your users are not very technical, so avoid using too much technical jargon. If there are multiple user stories (objects) that seem to be about the same topic, then comnbine those into one bulletpoint. When you are unsure what information to include or exclude, think about what might make sense for the majority of HR users, so keep it simple, and rather high-level, but specific enough. You will find that double-quotes are escaped with backslashes - you can simply ignore such backslashes.
+If there are verbs about the nature of the change, such as modify, add, remove, updated, developer, restrict, etc., they should be in the past tense.
 
-Depending on whether there is any data for the different extracts, structure the release notes in the following way:
+Here is an example of an object and the resulting bulletpoint:
+Object: {"short_description":"As a HR Administrator I want to allow read access for the cases which are assigned to the group \"HR_WD_AMS\" and its parent group (HR_S&amp;C).","description":"As a HR Administrator I want to allow read access for the cases which are assigned to the group \"HR_WD_AMS\" and its parent group (HR_S&amp;C).","acceptance_criteria":"I know the story is complete when,  Members of the group \"HR_WD_AMS\" are able to see the HR cases related to HR_S&amp;C group.  "}
+Bulletpoint: - Members of the HR_WD_AMS group can now see cases assigned to their parent group
 
-New features
-Your structured summary from this extract:  {{NewFeatures.output}} 
-</prompt>
+Your response should simply be a list of bulletpoins per the above example, no yapping.</prompt>
         <prompt_template_role>user</prompt_template_role>
         <request_tokens>15134</request_tokens>
-        <show_in_prompt_library>false</show_in_prompt_library>
-        <state>draft</state>
+        <show_in_prompt_library>true</show_in_prompt_library>
+        <state>published</state>
         <sys_class_name>sys_generative_ai_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-12 15:28:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2d26ccb08714ea10c8020fe4dabb3586</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>1526ccb08714ea10c8020fe4dabb357b</sys_name>
         <sys_overrides/>
         <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
@@ -38,7 +40,7 @@ Your structured summary from this extract:  {{NewFeatures.output}}
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_update_name>sys_generative_ai_config_2d26ccb08714ea10c8020fe4dabb3586</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-30 19:43:14</sys_updated_on>
+        <sys_updated_on>2025-04-18 17:21:25</sys_updated_on>
         <temperature>0.2</temperature>
         <version>1</version>
     </sys_generative_ai_config>
