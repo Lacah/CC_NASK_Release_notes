@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_delete_children=true" audit="true" db_object_id="54180cb48714ea10c8020fe4dabb35d7" extends="rm_release" label="Scrum release" max_length="40" name="rm_release_scrum" type="collection">
+        <element label="Release notes" max_length="8000" name="x_snc_nask_relea_0_release_notes" type="html"/>
+    </element>
+</database>
