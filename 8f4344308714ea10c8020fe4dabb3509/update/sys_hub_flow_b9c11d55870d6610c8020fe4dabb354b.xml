@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=174959000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=941437000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>HIGH</flow_priority>
         <generation_source/>
         <internal_name>generate_release_notes</internal_name>
-        <label_cache>[{"name":"flow_variable.html_code","label":"Flow Variables➛HTML Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ed8579ae-fa10-456a-9e4d-13694702d17f":[null,"release_notes_html-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"91c1c90f-484e-40a3-abfc-1c33e0f4b184"}},{"name":"subflow.release","label":"Input➛Release","reference":"rm_release_scrum","reference_display":"Scrum release","type":"reference","base_type":"reference","column_name":"","usedInstances":{"1f6e4e01-8641-4ccc-9c63-ed18a11cc831":["release"],"ddb18f92-1b74-496b-b53c-876666d4c606":["release"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"de44d881-7e80-417e-ae1c-4d2d718a7d5a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"1f6e4e01-8641-4ccc-9c63-ed18a11cc831.classifications","label":"1 - Get story classification options for release notes➛Classifications","reference_display":"Classifications","type":"array.string","base_type":"array.string","usedInstances":{"fef30b45-ae53-4ae9-bbb2-bbe3230af7c7":["items"]},"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDf6b9599da80d661029ea2f8a12a6e79c","child_label":"variable_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"variable_child0","child_uiUniqueId":"36194dc0-0f90-4c24-9f29-52799ab51993","uiUniqueId":"b0bf3ac7-58b8-4100-88bf-2c717461ec2d"}},{"name":"fef30b45-ae53-4ae9-bbb2-bbe3230af7c7.item","label":"2 - For Each➛variable_child0","reference_display":"variable_child0","type":"string","base_type":"string","usedInstances":{"ddb18f92-1b74-496b-b53c-876666d4c606":["classification"],"5df13d85-6ec3-4c8f-b7fd-406ef23668dd":["classification"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"ddb18f92-1b74-496b-b53c-876666d4c606.story_array","label":"3 - Get story details as inputs for release notes➛Story extract array","reference_display":"Story extract array","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"sourceId":"f76008b4-b6a4-453e-970b-61cff5f7374e","pwd2droppable":"true","child_name":"root_array_object","uiUniqueId":"192bc70e-70e2-4b1e-80e6-fdf7946ba345","uiTypeLabel":"Array.Object","co_type_name":"FD2bd199ea91a46210c01cec52fcefd7cd","child_label":"Story","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"action","sourceUiUniqueId":"f76008b4-b6a4-453e-970b-61cff5f7374e","uiType":"array.object","child_type":"object","child_uiUniqueId":"7ec01093-1978-4a12-a294-0ab04b29d9ac"}},{"name":"ddb18f92-1b74-496b-b53c-876666d4c606.output","label":"3 - Get story details as inputs for release notes➛Story extract STR","reference_display":"Story extract STR","type":"string","base_type":"string","usedInstances":{"3fc2dfdb-1ba5-49b6-a6a7-d932d729898f":["condition"],"5df13d85-6ec3-4c8f-b7fd-406ef23668dd":["story_extracts"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7eea4ea1-e372-46a0-a4c7-f4fcf28a18af"}}]</label_cache>
+        <label_cache>[{"name":"ddb18f92-1b74-496b-b53c-876666d4c606.output","label":"3 - Get story details as inputs for release notes➛Story extract STR","reference_display":"Story extract STR","type":"string","base_type":"string","usedInstances":{"5df13d85-6ec3-4c8f-b7fd-406ef23668dd":["story_extracts"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7eea4ea1-e372-46a0-a4c7-f4fcf28a18af"}},{"name":"ddb18f92-1b74-496b-b53c-876666d4c606.story_array","label":"3 - Get story details as inputs for release notes➛Story extract array","reference_display":"Story extract array","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"sourceId":"f76008b4-b6a4-453e-970b-61cff5f7374e","pwd2droppable":"true","child_name":"root_array_object","uiUniqueId":"192bc70e-70e2-4b1e-80e6-fdf7946ba345","uiTypeLabel":"Array.Object","co_type_name":"FD2bd199ea91a46210c01cec52fcefd7cd","child_label":"Story","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"action","sourceUiUniqueId":"f76008b4-b6a4-453e-970b-61cff5f7374e","uiType":"array.object","child_type":"object","child_uiUniqueId":"7ec01093-1978-4a12-a294-0ab04b29d9ac"}},{"name":"fef30b45-ae53-4ae9-bbb2-bbe3230af7c7.item","label":"2 - For Each➛variable_child0","reference_display":"variable_child0","type":"string","base_type":"string","usedInstances":{"ddb18f92-1b74-496b-b53c-876666d4c606":["classification"],"5df13d85-6ec3-4c8f-b7fd-406ef23668dd":["classification"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"1f6e4e01-8641-4ccc-9c63-ed18a11cc831.classifications","label":"1 - Get story classification options for release notes➛Classifications","reference_display":"Classifications","type":"array.string","base_type":"array.string","usedInstances":{"fef30b45-ae53-4ae9-bbb2-bbe3230af7c7":["items"]},"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDf6b9599da80d661029ea2f8a12a6e79c","child_label":"variable_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"variable_child0","child_uiUniqueId":"36194dc0-0f90-4c24-9f29-52799ab51993","uiUniqueId":"b0bf3ac7-58b8-4100-88bf-2c717461ec2d"}},{"name":"subflow.release","label":"Input➛Release","reference":"rm_release_scrum","reference_display":"Scrum release","type":"reference","base_type":"reference","column_name":"","usedInstances":{"1f6e4e01-8641-4ccc-9c63-ed18a11cc831":["release"],"ddb18f92-1b74-496b-b53c-876666d4c606":["release"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"de44d881-7e80-417e-ae1c-4d2d718a7d5a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.html_code","label":"Flow Variables➛HTML Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ed8579ae-fa10-456a-9e4d-13694702d17f":[null,"release_notes_html-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"91c1c90f-484e-40a3-abfc-1c33e0f4b184"}}]</label_cache>
         <master_snapshot>90906555874d6610c8020fe4dabb35e9</master_snapshot>
         <master_snapshot_digest/>
         <name>Generate release notes</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b9c11d55870d6610c8020fe4dabb354b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Generate release notes</sys_name>
         <sys_overrides/>
         <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_update_name>sys_hub_flow_b9c11d55870d6610c8020fe4dabb354b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:31</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:08</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -243,7 +243,7 @@
         <action_type display_value="Generate release notes bulletpoints">96079fe48789e210c8020fe4dabb358c</action_type>
         <action_type_parent display_value="Generate release notes bulletpoints">a34a83e88749e210c8020fe4dabb35b7</action_type_parent>
         <attributes/>
-        <comment>Run the NASK skill using the extract</comment>
+        <comment>Generate bulletpoints from the story extracts</comment>
         <compiled_snapshot>96079fe48789e210c8020fe4dabb358c</compiled_snapshot>
         <display_text/>
         <flow display_value="Generate release notes">b9c11d55870d6610c8020fe4dabb354b</flow>
@@ -254,18 +254,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 17:44:59</sys_created_on>
         <sys_id>248b1511874d6610c8020fe4dabb357f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:50</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:05</sys_updated_on>
         <ui_id>5df13d85-6ec3-4c8f-b7fd-406ef23668dd</ui_id>
-        <values>H4sIAAAAAAAA/71VyW7bMBD9lUBn09Auy7fCaYAWrQPUbS5BYJDUMGZBLZGopK7hf+/QWiw7S+MgiA8G+DgznPfIN7reWDKxphYN7SgW4E+iSQyuY/OJ7dq4TihjXhA71sjKaAoYWem8XC/hjy4p1xXi91TVZmOzSRLmTETsEodFPvHjkBEWeJxMohB/ic9DOxzntS5qvd1iZiKrQtH11ZsL8JVUSQmZNb2+GVkFLbFFDaU13RxtvZajogwUhi4MybMByefI63Vh8N9VnrWrb22Jr4vLOUJ5mZiGnJGFWZAlgJ0IqioYWSnNEmoKWlNd1giUQJPLTK37iJXMNJayTOyfSv7Fo3zbtk2kACTHodntl8tW0gYW51TTBdbmui7bUL7KJYeqkSUBQWulZ0OsCbgstERKuxRNmeqyc1Wn2bwRw+oLdDeISF1hE1AYpqb3lohYrPKHH12XFzLbidJuqpxT1a+o1qVktTb9bKxa/jxQuFkfaQwKUjxtmdKikNntsijze7k7ARtOx7cKF2Oh8gfsrJK32RgvD9mNUX06vkD8fAdf0VIaqt+xDCabw35l8q6GL+b1iIDTKIGA+BPfxbfpAIlZ5JJkYrMwcl3b821rO7KqdTVTtKr2IuHtLO9qQ7GRrBVn2ehrUngpC/0Jm7qHVoftqDOm++KjDfdvk5tTpZCc7q5uaEwBwrOZHxAKgUd8CjFhjLn4B57r2VREPBpLDenTtjwt/URT/p9fZ8rZMcHniLembF7ykS1nHdga033ZmC3yGmd67vv4ctMTJuRsnmdwRsjgNvet2+aRdLGfsxXFg4wPBsGHaDeLhnkXQHdN7HP2SCfRMH4OD2ePcw7RNs8b5p2jFHzYWg+00f72qYH0ajGcN4rhniiG90Yx/JPECLaPJ7EzGMVlutx9io5H8iMrfNyA7t12OKJ7v33IkHYCEXmxYxNfACV+FDqEOcInPA7jwAsY8Ei845C++QdvxHmaPwkAAA==</values>
+        <values>H4sIAAAAAAAA/71VyW7bMBD9FUNn06B2y7ciaYACbQI0bS5GIJDUMCZALZGoJK7hf+9QlmXFaYrYh/hggI8znHlvFi03jsqchZMlWZKIUM7jeeiBS8WcelRCkDHO/dBNnKlTsBzQsjFlvU7hxdRMmAbxJ6Zbe7HZZBl35zLxiMvjgARJxAkPfUHmcYS/LBARjWZla6rWbLfomamm0mx9d/YDYqV0VkPhLJb3U6diNaZooHYWm6Mrs64g1YyDxji3plbFA7p/lPnBEalPRtTfk8SG6/A+UFlnNit36qARFBlgYMl0A1MnZ0XGrL+zMHWLQA0suyn0erBYqcLgY461fWnUH3zZjSil1lQCUhSwux6OaS/sDharUgm4qYwqix1iGNe9jyh1mxfXOx62JCBZq82+JIi0Db4Hlc3a5tEnJW9X5fPPfcArVXQE+0tdCqaHEzMoA28NNLYurfp1JM4O+X5cHNCQY8Q0Z1WFSFrV5ZPqomDS+exB42EmdfmM2TXqoZih9shwhmqy2RXilx18x2pl6f7AZ9DZhvtdqMcWvtniy1CwOIOQBPPAw4ZzgSQ89kg2pzyKPY/6AXW2nbTpY2tJ7UTq5Uh3iqJBI2pVmS+YwhP0zLfTfraYR+MEOwo7LAHvuMOS6NBIQrOmUVIJ1hVrPFsSpE95EBIGoU8CBgnhnHv4B77nUyZjEc+Ugfzfk3Wa+3lzddE12n6uPsB6cDym/Z4c/VyJfaB+rrz/z1WPfGSwfO+0qcKWXm4GHoRMrssCJoSMSndIk9qO2Nt+LVYMH7UtPjJ+je7XxtjvCphpaxj5HJC9HGP7a3ievPV5jfZ+/tjvEmmLcWoD0FsH2/thXVycLoZ7phjeiWL4Z4oRnCRGaMU4WrTuaNPWedp9JI437psO/7z9OwzR6/07DPGn7F83lLGfuJQEEhgJ4sgl3JUBEUmUhH7IQcTy7P17/xdM/kG73QgAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Get story classification options for release notes">fab9599d870d6610c8020fe4dabb355f</action_type>
         <action_type_parent display_value="Get story classification options for release notes">aec4dd19870d6610c8020fe4dabb356e</action_type_parent>
         <attributes/>
-        <comment>Get applicable classifications of the release</comment>
+        <comment>Check wht story classifications exist within the release</comment>
         <compiled_snapshot>fab9599d870d6610c8020fe4dabb355f</compiled_snapshot>
         <display_text/>
         <flow display_value="Generate release notes">b9c11d55870d6610c8020fe4dabb354b</flow>
@@ -276,17 +276,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 17:44:59</sys_created_on>
         <sys_id>288b1511874d6610c8020fe4dabb3578</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:50</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:04</sys_updated_on>
         <ui_id>1f6e4e01-8641-4ccc-9c63-ed18a11cc831</ui_id>
-        <values>H4sIAAAAAAAA/41SXWvbQBD8K+WeZSHZkmr7rSQYAm0DdZuXEMTqbmUdnE7KfThxjf979yxFNk0LebzZ2d2Z2Xs8MinYmtVQrfLVSiw/J6Io0oQvk3lSYyagqhZ5kbGIaWiRmAYVgkUC9qB8QI5H66tadS/xWDudqCqk7RUcHkYSIbyRShjUbP34FLEeDA10aNj6+Ffpo4oUVKiI+mOS9E6jO/QDUCON52/Q16nzgndGBDFpxPDVoRZIKmpQFiPWghbgOnNga2c8AQZB3Gt1mBiN1G5w2cKrlb9p6WIeXe0lDW056iotN75lV+VyTIto21D7dHFQ34KDLa3lzpspyU5ytENaAmvwyt1cYwPhvney00OLg0r9RwXvlG/19yE6Ng28upwntsA+hBJsjp7rbdO9TAlupD7nNxZVx0FdUREMbzYSVbitbTrjaCIpkIPGiIFzRlbeBQtH5uXP95cbwH/djhy1JK1soe+l3pW96fbyLIfctfFO0SMOXzQslTsdAw9rY7oqxBvCb8/wAxgZcvpGY6g5bPyl5bPHu6Ca8zpLRQYzUSzyWZYu5rNlvkhnyyTLi7xOlnMAdoqYPdgbBdZeEiUT5bMPeQz5jkmWw3FCyzmILyRqj2Nop6c/IDrSqpwDAAA=</values>
+        <values>H4sIAAAAAAAA/41SXW/bMAz8K4OeHcOOP+bkrcBQYMDWAu3Wl6IwaIlOBMiSK0tpsyD/fZTtJcHaAn3UHck7HvV4YFKwNWuhWRWrlai+JqIs04RXyTJpMRfQNFlR5ixiGjqkSosKYUACdqB8QA6HwTetMi/xzB2PxAo59Ar2D3MRIXwrlbCo2frxKWI9WBro0LL14T/K7XusFTSoqPEOWySGB8XPWj33/vP6xnzQGIHzdGNFcJNGDF8daoGk1oIaMGIdaAHO2D1bO+sJsAjiVqv9qWIrtZvW7OB1kH9oeLaMLuaTVlfP+vXAre/YBV3PcVHZfeC+nJ3yrZEcb3snjZ4UHDTqg4HcKN/pm2nbcAVswSt3cQVP1QL7sF9wPNtv77fm5RT1tdRjFDOpDAd1eoFzVjbe4RAu5+Wvt0lO4I93Lkh2O9KtO+h7qTd1b81OjlpkvYs3ih5x+EvkcZAbHQMPe8eUPsTXhH8b4QewMoTwk8ZQc1D8reWzx+/hh3De5qnIYSHKrFjkabZcVEWWLqokL8qiTaolADuO6dfPPqw2RTWHUk85UwGlKnt3RRZ2OO9/fPoLhmFqfzMDAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b9c11d55870d6610c8020fe4dabb354b^sys_idNOT INe48b1511874d6610c8020fe4dabb357c"/>
     <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <comment>Get the strory extracts for each classification</comment>
+        <comment>Create an extract of all stories in this classification</comment>
         <display_text/>
         <flow display_value="Generate release notes">b9c11d55870d6610c8020fe4dabb354b</flow>
         <generation_source/>
@@ -298,10 +298,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 17:44:59</sys_created_on>
         <sys_id>e48b1511874d6610c8020fe4dabb357c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-20 17:45:34</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:05</sys_updated_on>
         <ui_id>ddb18f92-1b74-496b-b53c-876666d4c606</ui_id>
         <wait_for_completion>true</wait_for_completion>
     </sys_hub_sub_flow_instance_v2>
@@ -309,7 +309,7 @@
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">cd3d1d51874d6610c8020fe4dabb35bd</block>
-        <comment/>
+        <comment>if there are actually no stories for a classification</comment>
         <connected_to>3fc2dfdb-1ba5-49b6-a6a7-d932d729898f</connected_to>
         <decision_table/>
         <display_text/>
@@ -324,10 +324,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 17:52:23</sys_created_on>
         <sys_id>053d1d51874d6610c8020fe4dabb35be</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:27</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:05</sys_updated_on>
         <ui_id>39876aee-46c1-4943-8949-1f9f39ed74f2</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -350,10 +350,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 17:44:59</sys_created_on>
         <sys_id>288b1511874d6610c8020fe4dabb357a</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:27</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:05</sys_updated_on>
         <ui_id>fef30b45-ae53-4ae9-bbb2-bbe3230af7c7</ui_id>
         <values>H4sIAAAAAAAA/6VSwW7bMAz9F50Tw7IDI8mtwFCgh61AV/QyFAZN0YkwWfIkOWlm+N9HxU429LqTzUfq8T2So3BD7IcYXt1DCPpgxf7H+0pomzD+H4WFjsRe6EhdECtxAjOkeBxlW9GGcrneVhu53iDieodVuSYltyAl4raUGRpg2lYjRO1smCamUDr0Bi5v/8+ER22Up0V0D561RvJiP35KxUtPtYGGDDd8IXReJTNacSh3qt3JfIdlUZVFnhfbjWyqspGFKoFUxXW3l0/LED7NJLFz6O+8/Ekqinwl6COSVcSNWjCBVqIDqyA6fxH76AcGPIF6tuZyrzhqG5lOpNqPoH8zt8zzVNgSO0Kak/ewXgY6w3h0Gum5T1OakQiNWd6gM0Nnv83y0yqohcHE2yoYGQLzUZ80JxWLpPb70Z1fbg0ftb36W5LGIZh7BDF63QyRQloDGeqYqO6g77U91L13J319zFq67GA4yFrjztw0nV8GmIRnPCLIHhn/coXfwOvk4ivT8OPp6r7+NaS+s49FcT2b5oKAXvfxgelOtIib3tP9zkxhPgxFqAM3fE3Y0+3qU+LCS9b4L3R2/meS+heb/gA+mi59PwMAAA==</values>
         <workflow_reference/>
@@ -361,7 +361,7 @@
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">013d1d51874d6610c8020fe4dabb35bd</block>
-        <comment>Append to release notes</comment>
+        <comment>Append the classified bulletpoints to the complete release notes</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -376,10 +376,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 17:52:23</sys_created_on>
         <sys_id>453d1d51874d6610c8020fe4dabb35bd</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:27</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:05</sys_updated_on>
         <ui_id>b63420bb-a952-40ec-aa93-3ceb5ac6cdbf</ui_id>
         <values>H4sIAAAAAAAA/+1WXWvbMBT9K0ZPLUuMMidb2j2VjbJCu8Ka9WUpQpauEzFZcvWRNgv577uy46SEsqc9jRo/+B7pfpxzdYU3xMbQxOBn9sJ7tTDk/OfDgCiTMPzeEMNrIOdkGWrNhJVABmTFdUwYfkrlG83X9wdELJWWDnaBGu7QP4Aj55ujpbBugGlegkbHu+CUWaC7kmiVtCgmEzmZfqTyw4cRFVP6nlYwlrwsi0kxwX2949fZzXX2uavrlVJTEoR8H946mWqhAwLPAYwETFdx7WFAam4kD9at94gDLm+NPgBLZULHsubPXv3G0FNKadpZARITOw32Jtvp00tjlYDbJihrOiTwUve6WR1r862jkJSFikcdXigbPcaDJlWdytjVVN0t7dP3PuGlMi3B3aK2guu9xQPKUMYAPnUjqtmROB1yfdwS0FBjRlbzpkGENc6uVJsFi67zhUYjr7R9wurSEcq5SAxzVJPnl4h/aeF77lSie4Nh0Dml+2HUY4Sr1PKzkRiJM1oNx9MxDMeUF0NeVmI4EkUBtBqXo+mYbFtp2WNMpDqRdnKwTlHc4IVTTbjAElZILrgIPZZIH84GGn/bSjSEzJlsHiktZFZJ1tJpaa64y/eBPs3N3KjqZOFzo/SJM6en2WZuMnwchIghel82YWwBBhwPwByqyrGhxmI7WBk15mssni/fhX6JYIptBtjCo8D4vvs30cl2u31Ig921qJv8dhRfH6u3G+DtBni7Af7DG0CCUB5bN0t9uur/AtLCGmdLiZfQk3W/khoHbPsH6gtvtE8IAAA=</values>
         <workflow_reference/>
@@ -387,7 +387,7 @@
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">366d1191874d6610c8020fe4dabb3592</block>
-        <comment>Return complete release notes as HTML</comment>
+        <comment>Return the complete release notes as HTML code</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -402,10 +402,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 17:53:20</sys_created_on>
         <sys_id>7a6d1191874d6610c8020fe4dabb3592</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:27</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:05</sys_updated_on>
         <ui_id>ed8579ae-fa10-456a-9e4d-13694702d17f</ui_id>
         <values>H4sIAAAAAAAA/41TTW/bMAz9K4VOK5AYSuzAQW4FimIF2hVos16GwWAkOhYmS64kJ82C/PdR/kiLXNYjHynyvUfqyGwbmjb4tb3xXm0NW/06MiXZigHOJeb5Ypnz2RxmXCz5nJeYSdhs0oXI2YQZqJEqHWoEj4WxAX1RhVpTbge6jcnjsdR2X+zAKdhoTGK6EFbi6URVUvlGw+H1S8WiUlo6jBx/T1gDjsYHdGx1vEiFQ4OFhg1q6vkSnDJbev5VVePD517WVSfr6tv39ePD9X9Ex8GU8+NI62TkN5swfA9oJBKFErTHCavBSAjWHc6IQ5BPRn8AlTKBurFY/O7VX2q95JzHyhJJrMA+ew6Lwc4eFpVVAp+aoKzpkRBNHZJWt7X50WuJi8ASWh3GRRDSkjiJTWQdaQycypfK7p/HgXfKdAKHpLYC9DmCQDZsWrInbqhV6wtzeuThck3ka00TixqahpCicXanuilEuk62moKkOxOJ8WITEFFhQm5Cckf4bQe/Djf0SG3ocRz306i3Fu/jGchZjgtMs6kQkk8zWabT5WKWT3mZpRwySPkiZafO2uKtjaJ6kwY7it5RKvDCqSbcEIUdDspPdIHKxE/VX+N4zUMoUShPhNcRu/9UJw90Wkp8hvbW/YlSP7DTP5ZpWEiyAwAA</values>
         <workflow_reference/>
@@ -428,10 +428,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 17:52:23</sys_created_on>
         <sys_id>8d3d1d51874d6610c8020fe4dabb35be</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:27</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:05</sys_updated_on>
         <ui_id>9133ac48-296c-4791-85f6-b5f0564496de</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -454,12 +454,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 17:44:59</sys_created_on>
         <sys_id>ec8b1511874d6610c8020fe4dabb357d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:27</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:05</sys_updated_on>
         <ui_id>3fc2dfdb-1ba5-49b6-a6a7-d932d729898f</ui_id>
-        <values>H4sIAAAAAAAA/+1UXW/TMBT9K1We0ygfTdb2bQImTWIrotUkhKboxnZaC8cOttOuVP3vXOejq1gHCHgkT/G5X+dcn+TgqcbWjTUrdW0MX0tv/vnR97h0GL4fPAkV8+YeUZJyy5XMW8D3tiAaF7AbptmImxEFCyOwIxACw5SbWsD+4edZZMMF1ayfWoPG3pZpb374IWT3NcsFFExgs6XVXK6xnFM8lSGU0YxEJImzJA7DeDqJiiwpopgmwCDBvKHwzSBi9L5F/FfVuXmIm2GS0tTRikLfY0+WScpwdAnCMN+rQKIqpfcnRDOgCymegQ2XFtt5LvnJ8G/YO05Tl1jiXiRhXfB0zPv1dTDZKE7YonYEO8RCIfoaokRTyftOh1s8K6ERdlg8Io3Bfqx2pB2LnlK53Kjdx2HgDZetwD4oFAFxOoHFNRSNZcZdDBOswkZ5BXWNy8lrrba8LUYuVbAWeAhKoXY41DkqAOKIB+7mgxvE37bwA2juVNxhGyzuaBZgOMlb9znTaJRwbNeSf20coU5gLyXvtoEJhmhe22ucs2U966P/0rpnrj0cKC2iaTmLx1FxNRlPZlkxLtKEjKdXGT50QrIwC7qP43i8Xd4vVu/uPqw+vbT237T6F/6fQVqmUZhe9v8ku+T/C85/3fTxL0zvruk3PR+G4X/Tn5uem7wzb6+tHf7Hnn90Bu8mmM43lBFukMjKYbfDX90F9mgATs6hndJfnIRn7PgdOTFtTh8GAAA=</values>
+        <values>H4sIAAAAAAAA/+1UW2/aMBj9K5GfQ5QLSYG3alulSmuZBqo0TVXk2A5Yc+zMdqAZ4r/vcy4UrVS7Po4nfL7bOd934IBUY+vGmrW6NoZvJFp8fvQRlw6D7wckccXQAhElKbdcybwDfLTDonEBu2WaeZphIVqPGw/L1jNW6dazyqu1IswYSKfc1AK3D79XRbZcUM0GVjXWMNsyjRaHH0K2rVkucMEENF9ZzeUGyjmFVxniMpqTiCRxlsRhGM+mUZElRRTTBDOcQN5Y+GYU6b3vEP9V9W4e4GacpDR1tKLQR+zJMkkZjC6xMMxHFZYUO20nBHTTpRTPwJZLC+2QS34y/Bv0jtPUJZawJ0lYHzw982GdPUy2ihO2rB3BHrG4EEMNUaKp5H2vwx2ClbgRdjwEII2Bfqx2pB2LgVK52qr9x3HgDZedwCEoFMHi9MIW1lA0lhl3GCZYBY3yCtc1LCeHa+54VwxcqmAj4BGUQu1hqHNcgIkjHsCOcHAD+NsOfsCaOxV30AaKe5oFNpzknTudiTRIOHZryb82jlAvcJCS99uABEM0r+01zNmxgfXRf2ntM1cfDpQW0aycx5OouJpOpvOsmBRpQiazqww+dEqyMAv6H8/xeLu6X67f3X1Yf3pp9b9p9S/8P8dpmUZhetn/0+yS/y84/3XTxz8xvTvTL3o+DMP/pj83PTd5b95BWzf8jz3/6AzeTzC9bygj3ACRtcNux399F2jBAJycQ3ulvzgJz9jxO9W8nRI/BgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=b9c11d55870d6610c8020fe4dabb354b^sys_idNOT INbe6d1191874d6610c8020fe4dabb3593"/>
@@ -628,7 +628,7 @@
         <description/>
         <flow_priority>HIGH</flow_priority>
         <internal_name>generate_release_notes</internal_name>
-        <label_cache>[{"name":"flow_variable.html_code","label":"Flow Variables➛HTML Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ed8579ae-fa10-456a-9e4d-13694702d17f":[null,"release_notes_html-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"91c1c90f-484e-40a3-abfc-1c33e0f4b184"}},{"name":"subflow.release","label":"Input➛Release","reference":"rm_release_scrum","reference_display":"Scrum release","type":"reference","base_type":"reference","column_name":"","usedInstances":{"1f6e4e01-8641-4ccc-9c63-ed18a11cc831":["release"],"ddb18f92-1b74-496b-b53c-876666d4c606":["release"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"de44d881-7e80-417e-ae1c-4d2d718a7d5a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"1f6e4e01-8641-4ccc-9c63-ed18a11cc831.classifications","label":"1 - Get story classification options for release notes➛Classifications","reference_display":"Classifications","type":"array.string","base_type":"array.string","usedInstances":{"fef30b45-ae53-4ae9-bbb2-bbe3230af7c7":["items"]},"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDf6b9599da80d661029ea2f8a12a6e79c","child_label":"variable_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"variable_child0","child_uiUniqueId":"36194dc0-0f90-4c24-9f29-52799ab51993","uiUniqueId":"b0bf3ac7-58b8-4100-88bf-2c717461ec2d"}},{"name":"fef30b45-ae53-4ae9-bbb2-bbe3230af7c7.item","label":"2 - For Each➛variable_child0","reference_display":"variable_child0","type":"string","base_type":"string","usedInstances":{"ddb18f92-1b74-496b-b53c-876666d4c606":["classification"],"5df13d85-6ec3-4c8f-b7fd-406ef23668dd":["classification"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"ddb18f92-1b74-496b-b53c-876666d4c606.story_array","label":"3 - Get story details as inputs for release notes➛Story extract array","reference_display":"Story extract array","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"sourceId":"f76008b4-b6a4-453e-970b-61cff5f7374e","pwd2droppable":"true","child_name":"root_array_object","uiUniqueId":"192bc70e-70e2-4b1e-80e6-fdf7946ba345","uiTypeLabel":"Array.Object","co_type_name":"FD2bd199ea91a46210c01cec52fcefd7cd","child_label":"Story","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"action","sourceUiUniqueId":"f76008b4-b6a4-453e-970b-61cff5f7374e","uiType":"array.object","child_type":"object","child_uiUniqueId":"7ec01093-1978-4a12-a294-0ab04b29d9ac"}},{"name":"ddb18f92-1b74-496b-b53c-876666d4c606.output","label":"3 - Get story details as inputs for release notes➛Story extract STR","reference_display":"Story extract STR","type":"string","base_type":"string","usedInstances":{"3fc2dfdb-1ba5-49b6-a6a7-d932d729898f":["condition"],"5df13d85-6ec3-4c8f-b7fd-406ef23668dd":["story_extracts"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7eea4ea1-e372-46a0-a4c7-f4fcf28a18af"}}]</label_cache>
+        <label_cache>[{"name":"ddb18f92-1b74-496b-b53c-876666d4c606.output","label":"3 - Get story details as inputs for release notes➛Story extract STR","reference_display":"Story extract STR","type":"string","base_type":"string","usedInstances":{"5df13d85-6ec3-4c8f-b7fd-406ef23668dd":["story_extracts"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7eea4ea1-e372-46a0-a4c7-f4fcf28a18af"}},{"name":"ddb18f92-1b74-496b-b53c-876666d4c606.story_array","label":"3 - Get story details as inputs for release notes➛Story extract array","reference_display":"Story extract array","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"sourceId":"f76008b4-b6a4-453e-970b-61cff5f7374e","pwd2droppable":"true","child_name":"root_array_object","uiUniqueId":"192bc70e-70e2-4b1e-80e6-fdf7946ba345","uiTypeLabel":"Array.Object","co_type_name":"FD2bd199ea91a46210c01cec52fcefd7cd","child_label":"Story","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"action","sourceUiUniqueId":"f76008b4-b6a4-453e-970b-61cff5f7374e","uiType":"array.object","child_type":"object","child_uiUniqueId":"7ec01093-1978-4a12-a294-0ab04b29d9ac"}},{"name":"fef30b45-ae53-4ae9-bbb2-bbe3230af7c7.item","label":"2 - For Each➛variable_child0","reference_display":"variable_child0","type":"string","base_type":"string","usedInstances":{"ddb18f92-1b74-496b-b53c-876666d4c606":["classification"],"5df13d85-6ec3-4c8f-b7fd-406ef23668dd":["classification"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"1f6e4e01-8641-4ccc-9c63-ed18a11cc831.classifications","label":"1 - Get story classification options for release notes➛Classifications","reference_display":"Classifications","type":"array.string","base_type":"array.string","usedInstances":{"fef30b45-ae53-4ae9-bbb2-bbe3230af7c7":["items"]},"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDf6b9599da80d661029ea2f8a12a6e79c","child_label":"variable_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"variable_child0","child_uiUniqueId":"36194dc0-0f90-4c24-9f29-52799ab51993","uiUniqueId":"b0bf3ac7-58b8-4100-88bf-2c717461ec2d"}},{"name":"subflow.release","label":"Input➛Release","reference":"rm_release_scrum","reference_display":"Scrum release","type":"reference","base_type":"reference","column_name":"","usedInstances":{"1f6e4e01-8641-4ccc-9c63-ed18a11cc831":["release"],"ddb18f92-1b74-496b-b53c-876666d4c606":["release"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"de44d881-7e80-417e-ae1c-4d2d718a7d5a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.html_code","label":"Flow Variables➛HTML Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ed8579ae-fa10-456a-9e4d-13694702d17f":[null,"release_notes_html-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"91c1c90f-484e-40a3-abfc-1c33e0f4b184"}}]</label_cache>
         <master>true</master>
         <name>Generate release notes</name>
         <natlang/>
@@ -645,7 +645,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>90906555874d6610c8020fe4dabb35e9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -653,7 +653,7 @@
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:30</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:07</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -852,7 +852,7 @@
         <action_type display_value="Get story classification options for release notes">fab9599d870d6610c8020fe4dabb355f</action_type>
         <action_type_parent display_value="Get story classification options for release notes">aec4dd19870d6610c8020fe4dabb356e</action_type_parent>
         <attributes/>
-        <comment>Get applicable classifications of the release</comment>
+        <comment>Check wht story classifications exist within the release</comment>
         <compiled_snapshot>fab9599d870d6610c8020fe4dabb355f</compiled_snapshot>
         <display_text/>
         <flow display_value="Generate release notes">90906555874d6610c8020fe4dabb35e9</flow>
@@ -863,10 +863,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 18:07:06</sys_created_on>
         <sys_id>e490a555874d6610c8020fe4dabb3524</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-20 18:07:06</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:07</sys_updated_on>
         <ui_id>1f6e4e01-8641-4ccc-9c63-ed18a11cc831</ui_id>
         <values>H4sIAAAAAAAA/41SXWvbQBD8K+WeZSHZkmr7rSQYAm0DdZuXEMTqbmUdnE7KfThxjf979yxFNk0LebzZ2d2Z2Xs8MinYmtVQrfLVSiw/J6Io0oQvk3lSYyagqhZ5kbGIaWiRmAYVgkUC9qB8QI5H66tadS/xWDudqCqk7RUcHkYSIbyRShjUbP34FLEeDA10aNj6+Ffpo4oUVKiI+mOS9E6jO/QDUCON52/Q16nzgndGBDFpxPDVoRZIKmpQFiPWghbgOnNga2c8AQZB3Gt1mBiN1G5w2cKrlb9p6WIeXe0lDW056iotN75lV+VyTIto21D7dHFQ34KDLa3lzpspyU5ytENaAmvwyt1cYwPhvney00OLg0r9RwXvlG/19yE6Ng28upwntsA+hBJsjp7rbdO9TAlupD7nNxZVx0FdUREMbzYSVbitbTrjaCIpkIPGiIFzRlbeBQtH5uXP95cbwH/djhy1JK1soe+l3pW96fbyLIfctfFO0SMOXzQslTsdAw9rY7oqxBvCb8/wAxgZcvpGY6g5bPyl5bPHu6Ca8zpLRQYzUSzyWZYu5rNlvkhnyyTLi7xOlnMAdoqYPdgbBdZeEiUT5bMPeQz5jkmWw3FCyzmILyRqj2Nop6c/IDrSqpwDAAA=</values>
     </sys_hub_action_instance_v2>
@@ -874,7 +874,7 @@
         <action_type display_value="Generate release notes bulletpoints">96079fe48789e210c8020fe4dabb358c</action_type>
         <action_type_parent display_value="Generate release notes bulletpoints">a34a83e88749e210c8020fe4dabb35b7</action_type_parent>
         <attributes/>
-        <comment>Run the NASK skill using the extract</comment>
+        <comment>Generate bulletpoints from the story extracts</comment>
         <compiled_snapshot>96079fe48789e210c8020fe4dabb358c</compiled_snapshot>
         <display_text/>
         <flow display_value="Generate release notes">90906555874d6610c8020fe4dabb35e9</flow>
@@ -885,17 +885,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 18:07:06</sys_created_on>
         <sys_id>ec90a555874d6610c8020fe4dabb3525</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-20 18:07:06</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:07</sys_updated_on>
         <ui_id>5df13d85-6ec3-4c8f-b7fd-406ef23668dd</ui_id>
-        <values>H4sIAAAAAAAA/71VyW7bMBD9lUBn09Auy7fCaYAWrQPUbS5BYJDUMGZBLZGopK7hf+/QWiw7S+MgiA8G+DgznPfIN7reWDKxphYN7SgW4E+iSQyuY/OJ7dq4TihjXhA71sjKaAoYWem8XC/hjy4p1xXi91TVZmOzSRLmTETsEodFPvHjkBEWeJxMohB/ic9DOxzntS5qvd1iZiKrQtH11ZsL8JVUSQmZNb2+GVkFLbFFDaU13RxtvZajogwUhi4MybMByefI63Vh8N9VnrWrb22Jr4vLOUJ5mZiGnJGFWZAlgJ0IqioYWSnNEmoKWlNd1giUQJPLTK37iJXMNJayTOyfSv7Fo3zbtk2kACTHodntl8tW0gYW51TTBdbmui7bUL7KJYeqkSUBQWulZ0OsCbgstERKuxRNmeqyc1Wn2bwRw+oLdDeISF1hE1AYpqb3lohYrPKHH12XFzLbidJuqpxT1a+o1qVktTb9bKxa/jxQuFkfaQwKUjxtmdKikNntsijze7k7ARtOx7cKF2Oh8gfsrJK32RgvD9mNUX06vkD8fAdf0VIaqt+xDCabw35l8q6GL+b1iIDTKIGA+BPfxbfpAIlZ5JJkYrMwcl3b821rO7KqdTVTtKr2IuHtLO9qQ7GRrBVn2ehrUngpC/0Jm7qHVoftqDOm++KjDfdvk5tTpZCc7q5uaEwBwrOZHxAKgUd8CjFhjLn4B57r2VREPBpLDenTtjwt/URT/p9fZ8rZMcHniLembF7ykS1nHdga033ZmC3yGmd67vv4ctMTJuRsnmdwRsjgNvet2+aRdLGfsxXFg4wPBsGHaDeLhnkXQHdN7HP2SCfRMH4OD2ePcw7RNs8b5p2jFHzYWg+00f72qYH0ajGcN4rhniiG90Yx/JPECLaPJ7EzGMVlutx9io5H8iMrfNyA7t12OKJ7v33IkHYCEXmxYxNfACV+FDqEOcInPA7jwAsY8Ei845C++QdvxHmaPwkAAA==</values>
+        <values>H4sIAAAAAAAA/71Vy27bMBD8FUNn09Bblm+F0wAF2gRo2l6CwOBjGROgHpGoJK7hf+/SkmXFTgo7COKDAQ53yZ3hzup27SjhzByRijTlkZwm08gHz+VT13clhIIyFkRe6oydnGaAkbUpqtUCnk1FuakRf6S6sRvrtRDMm8rUJx5LQhKmMSMsCjiZJjH+RMhjN54UjSkbs9lgplB1qenqz7sP4EulRQW5M7u9GzslrbBEA5UzWx9sncpRUwYaQ28sydGA5Fvkzaps8Url9936e39IBxaVsEV5YwczIReA1Uiqaxg7Gc0FtYc6M1M1CFRAxXWuV33EUuUGD3Ns7HOt/uJ1Xuy6rg2VgAw5tNv9ctHp2sLyghqKpTTcNFUXypeF4lC32giQtNFmPsTagOvSqCJvUwxlepdd6CbLr1pFnP6A3TMi0tRYBJSWqi2+YyJvlsXTz12VlyrfqtJt6oJT3a+oQe1YY2w9a6dRvw5kbpEjoUFDhjcuMlqWiCzKqnhU21uw6Gxyr3Exkbp4wupqdZ9P8BWR4QSfgE4uEb/Ywn9opSzdH3gMJtvrfufqoYFvto1kxGkiICLhNPSxST0gKUt8IqYuixPfd4PQdTZjp17Vc03rei8UvtDiobE0W9k6gRatxjaFV6o0X7CoR+i02Iw7h1LfTVLsVuzeFPzD7k3jfZNye6uSitPt8w0dKkEGLgsjQiEKSEghJYwxH/8g8AOXyoQnE2Uge92f56Wf584T+O3cOT8k+Bbxzp1tNx+4c74DO3f6/3dnh5xiz8D/GG+ue8KEjK6KHEaEDF5zX7prm2QX+zVfUrzI+mAQ/BLdDaRh3iXQbRH7nD2yk2gYfwVPo+Ocl2iXFwzzLlAKPiytB7rocPPaUDpZDO+dYvhnihG8U4zwLDGizfE09gbjuMoW22/S4Vg+ssLnDenebS+HdO+3TxnSXiSTIPVcEkqgJExijzBPhoSncRoFEQOeyA8c0nf/ALZHhAhICQAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=90906555874d6610c8020fe4dabb35e9^sys_idNOT IN6c90a555874d6610c8020fe4dabb3526"/>
     <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <comment>Get the strory extracts for each classification</comment>
+        <comment>Create an extract of all stories in this classification</comment>
         <display_text/>
         <flow display_value="Generate release notes">90906555874d6610c8020fe4dabb35e9</flow>
         <generation_source/>
@@ -907,10 +907,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 18:07:06</sys_created_on>
         <sys_id>6c90a555874d6610c8020fe4dabb3526</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-20 18:07:06</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:07</sys_updated_on>
         <ui_id>ddb18f92-1b74-496b-b53c-876666d4c606</ui_id>
         <wait_for_completion>true</wait_for_completion>
     </sys_hub_sub_flow_instance_v2>
@@ -918,7 +918,7 @@
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">366d1191874d6610c8020fe4dabb3592</block>
-        <comment>Return complete release notes as HTML</comment>
+        <comment>Return the complete release notes as HTML code</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -933,10 +933,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 18:07:06</sys_created_on>
         <sys_id>6090a555874d6610c8020fe4dabb3523</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:30</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:07</sys_updated_on>
         <ui_id>ed8579ae-fa10-456a-9e4d-13694702d17f</ui_id>
         <values>H4sIAAAAAAAA/41TTW/bMAz9K4VOG5AYTpzAQW5Fi2IF0hVos16KwWAkOhEqS64+kmZB/vuoyPnAelhv5iMpvvdI75gJvg3ezc21c3Kp2fR1x6RgUwY4FFiW40mZD4YwyPkkH+Y1jgQsFsWYl6zHNDRIlRYVgsNKG4+uWvlGUW4NKsTkblcrs6nWYCUsFGYxXXEjcL+nKiFdq2D78qVivpJKWIwcf/dYC5bGe7RsSow1fWhQM6nf6J1PxV9VpGCBikqfkqSrg6Srbz/mD7Pv/xHst23MOW+lXnbxrHvu+QgaKyLhQY/hh0ctkHjVoBz2WANagDd2e0IsgnjU6gysSGZS18CHk39o3iTP81hZI2nlmLKnsOr8TXB9Cx6ISuA+WDzaZCRHl1wSWENQ/uYSSwWPrZdGpxYfV9N1GxUa/TO5wk4PHNdJSCCbBLZRauTeCamfV2bzdGR5J/XBlS6pDAd1isCTd4vgI58dC3L+j80J+WQ0baihiVUDbUtI1VqzlocpRLrJloqC7HBsAuPdZ8CjwoxWANkd4bcH+KW7xAd6hprjuF9avge8jwclBiWOsRj1ORd5fyTqoj8ZD8p+Xo+KHEZQ5OOC7XvMbd2NAufORtGGqvcQZSbbOoOq5HFs4Va2/ppIrbHzYh/vWMefNW3m+JeclselIwnziN1f1Iktna3kl9DG2Lco/ozt/wIusmt8CgQAAA==</values>
         <workflow_reference/>
@@ -959,18 +959,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 18:07:06</sys_created_on>
         <sys_id>6c90a555874d6610c8020fe4dabb351f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:30</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:07</sys_updated_on>
         <ui_id>3fc2dfdb-1ba5-49b6-a6a7-d932d729898f</ui_id>
-        <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPASUBUuCtoqtUqS3TQJWmqYpubAesGTuzHShD/Pdd5wPQyj6q7nF5is+9vvecm3uUPdGlK0pnF/raWrFUZPLlOSBCeQzf90TBmpMJoVox4YRWaQUEZAOy9AG34oZ3hO0wcNAB1wEpMcyELSTsnn6fRVdCMsObrgUYrO24IZP9TyHBsEgeQh6NaUT7cdKPwzAeDaIs6WdRzPrAoY8FJWRcYuq0pdu5r5DglzrcrvC4dUaoZXO+b6rMW1Ab5llFYUD4i+OKceSTg7Q8IGtQKEqb3RExHNhMyROwEsphOeKTX6z4jg3j4dAn5jgWRXkdPB7TZno1nN/gzJBKSV1pmlS60oJyWw+H8RxK6abnWJ0wK7zU+oqDTLa3tSzX6rGeCDkWaD8WIqVFErzwSj31Rkc+X+ntp5blrVDVVJqg1BTk8QQOZ5eVzvPZEy75GgulaygKnGhaGL0R1WXksu4tJR56udRbbOq3sAfUE+/5bendIn5TwU9ghFfxgGXwck0zAytoWm2sXzSDEg4BsTs7lWDtSSRON/1Weoq15EZcWs/HX6FGFO4aO294o+MQvDbA2e7v94xl0Sgfx90ouxp0B+Mk62bDPu2OrhJ82IAmYdKrLXY43M0fZ4sPDx8Xn18b5D2l3uaiMQzzYRQOL7tokFxy0QX/vNE68R+s47/bXzonDMP/1nm3dYRN64VvtFXN/6Fznr1N6p7HWVNhkdrCY3ftH8YHdrhcgp5DW22+elEn7PADSxGkDqsGAAA=</values>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0bPjrGdxG3yVtIVCv0YayiUUcy1JCdisuRJclsv5L/vynaSsmZspXtcnqKjq3vPObmHbIhuXN04u9Rn1oqVIvOvjyERymP4fUMUVJzMCdWKCSe0yjsgJE8gG3/h1tzwwHCQsg2EDUC1gXXatIHTQW005dZiORO2ltDev+8VXQvJDB9Y1WBwtuOGzDe/XAmGTcsYymRGEzpOs3Eax+npJCmycZGkbAwcxthQQsElli52coKrDgl/q9O1tcetM0KthvPV0OVuB2rDPKskDgl/cVwxjnxKkJaHpALFwEvbIyib3Sp5ANZCOWxHfPGLFT9wYDqd+sISbVKU95f7Yz642cPlOThAKg11jRlK6VoL9LA3h/ESGukWr7G+4Lb2UvsnDgq5e61lU6mb3hGyb7D78RBpLJLgtVfqqQ86yru1fv6yY3khVOfKcCk1Bbk/gUPvisZ5PhvCJa+wUV5BXaOjOW7Ak+geI5cqWkk8RKXUzzjUb2kE1BOP0FiILhA/7+B7MMKruMY2+LinWYAVNO822i+eQQnbkNjWLiRYexCJ7ubfG0+xlzyIy3t//BNqRO3OcPITH3Rsw7cBeZWNzYaxIjktZ+koKU4mo8ksK0bFdExHpycZftiEZnEW9RHcbi/vbm6Xn64/Lx/eBuYjrd6XohlMy2kST4+naJIdS9GR/LwzOukfouN/t79MThzH/6Pz4egIm/cLP2jrhv/D5Dz6mPQz915TYZHa0mOXu38gf9Hicgn6GnrW5psXdcC2PwEYhlhuywYAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">013d1d51874d6610c8020fe4dabb35bd</block>
-        <comment>Append to release notes</comment>
+        <comment>Append the classified bulletpoints to the complete release notes</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -985,10 +985,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 18:07:06</sys_created_on>
         <sys_id>6c90a555874d6610c8020fe4dabb3520</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:30</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:07</sys_updated_on>
         <ui_id>b63420bb-a952-40ec-aa93-3ceb5ac6cdbf</ui_id>
         <values>H4sIAAAAAAAA/+1WTW/bMAz9K4ZOLZYYypx0aXcqWhQr0K7AmvWyFIYs0YkwWXL1kTYN8t9HxY4TZMMOw44xfDCfRPLxkSGyIib4Ong3MZfOyZkmFz+ee0TqiOH3ikhBLgjpEc0qwK+5r1TOjQCEFkwFaE6FdLViy6cdwudSCQttwJpZ9PdgycXq4GiToKBZNhqJ0fgTFWdnA8rH9CMtYShYUWSjbIQBFStA4dUvk/u75Kph8AdSfllHyHkr9ay171rXxy1orIhUaI/AmwctADmUTDnokYppwbyxyw6xwMSDVjtgLrVviqzYm5PvmG9MKY03S8C6eCtBZ+atPA1cXjPPkErgPthOLSM5uEYRASULyl/tY82Fh9pLoxsXzwq19TYqVPprIwbpAux1IzgkAXUsNXJvCykf5+b125bljdQbVdpDZThTncU8alcEH/msSJCTA5kb5DehQUGFGfOK1TUieW3NQm6yIOkqnSk00lKZV2QXxy9lPFaYYgtYeoP49QZ+YlbGcu8xDDrHdN+1fAlwG4fnfMAH/JyW/eF4CP0hZVmfFSXvD3iWAS2HxWA8JOsecUt3pZhzO6GwQ/lLiGU2srUC5Y3G0YVbWftLJLVAF+wZbLEow27u0PjbVaLAJ1Yn00BpJpJS5JsCN4UvmE27QJ+neqpleTJzqZbqxOrT02Q11Qk+FnBcdOebj/J8Bhos85Bb1Jlhi7XBBuVFUJivNjimrgm9j2CKdQLY1IPA+H74P9HJer1+juuhadpxjxz3yHGPHPfIv+4RAVw6bOYkdu52+88kHizxdyv5PvRq7M+oxg5b/wIKEiqV4wgAAA==</values>
         <workflow_reference/>
@@ -1011,10 +1011,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 18:07:06</sys_created_on>
         <sys_id>a490a555874d6610c8020fe4dabb3522</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:30</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:07</sys_updated_on>
         <ui_id>9133ac48-296c-4791-85f6-b5f0564496de</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -1037,10 +1037,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 18:07:06</sys_created_on>
         <sys_id>e890a555874d6610c8020fe4dabb351e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:30</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:07</sys_updated_on>
         <ui_id>fef30b45-ae53-4ae9-bbb2-bbe3230af7c7</ui_id>
         <values>H4sIAAAAAAAA/6VTXWvjMBD8L3p2jBUHk+SttBQKd1doS1+OEjbSOhEnSz59JPUZ//dbxY5b+tone0e7szNjuWc2hjYG/2JvvFcHw7a/3zKmTMLovWcGGmRbpgI2nmXsBDqmuu95XeEKC75YVyu+WAkhFhtRlQuUfA2cC7EueS40EG2tBARljR8GopDKtxq61+8ziaPS0uEkugVHWgM6tu2/HClJi/hG1htebES5rMplUSzXK76vyj1fyhJQVkSoYY+aWh8mt1/Mh65NpUNhnbwCP6aZpxmlRxKxLDKG7wGNRFpfg/aYsQaMhGBdx7bBRQIcgnw0ups7jsoEomOp992rf7SRF0VqrJEMCRwP53I35TnC9R0EeCZqEaKbWsXRKoF+jEJiDVGH28/Y2PDYpmTHkQB7fZ22Ojbm15gEmwmun4+Q6EkEtslokj75qJ+P9vx0VXmvzCWU6VBbAXquIASn9jEkPT1DjQ0R7RpoW2UOu9bZk7oMk5YmP2gq8lrbMy1NVzYHkYTnlCvk94TfXeBXcCq5+Ek0NDxkzHf+Nt2iDy8U4u5vTEpGZ5OH3RhDGhFOteGGFpxwkju8pb9g5J4zFcqThJeEPVz/nXTQ0Q1S4jN0tu5PEv+BDf8BNgTdA4UDAAA=</values>
         <workflow_reference/>
@@ -1048,7 +1048,7 @@
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">cd3d1d51874d6610c8020fe4dabb35bd</block>
-        <comment/>
+        <comment>if there are actually no stories for a classification</comment>
         <connected_to>3fc2dfdb-1ba5-49b6-a6a7-d932d729898f</connected_to>
         <decision_table/>
         <display_text/>
@@ -1063,10 +1063,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 18:07:06</sys_created_on>
         <sys_id>e890a555874d6610c8020fe4dabb3521</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:30</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:07</sys_updated_on>
         <ui_id>39876aee-46c1-4943-8949-1f9f39ed74f2</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -1231,18 +1231,18 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b9c11d55870d6610c8020fe4dabb354b"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b9c11d55870d6610c8020fe4dabb354b^sys_idNOT INac90a555874d6610c8020fe4dabb3549"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"ac90a555874d6610c8020fe4dabb3549","name":"plan","plan_signature":null}}</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@3a9fd737</plan>
         <plan_id display_value="Generate release notes">b9c11d55870d6610c8020fe4dabb354b</plan_id>
-        <snapshot>0e4deb7587012a10c8020fe4dabb35b4</snapshot>
+        <snapshot>90906555874d6610c8020fe4dabb35e9</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-20 18:07:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ac90a555874d6610c8020fe4dabb3549</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 17:38:31</sys_updated_on>
+        <sys_updated_on>2025-05-01 14:33:08</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>

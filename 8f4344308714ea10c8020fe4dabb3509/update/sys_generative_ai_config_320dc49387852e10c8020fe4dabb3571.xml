@@ -9,7 +9,7 @@
         <min_word_count>-1</min_word_count>
         <model>llm_generic</model>
         <name>Generate release notes</name>
-        <parent/>
+        <parent display_value="OneExtend Capability Definition: Release Notes Genererator">46b8845f87452e10c8020fe4dabb3572</parent>
         <prompt>You are a seasoned ServiceNow Product Owner for Employee Service Manager, including HR Service Delivery and Employee Center. Your task is to write release notes for your platform users to let them know what the recent release contains.
 You are provided extracts of the user stories included in the release in the format of an array of objects that is stringified.
 
@@ -28,20 +28,20 @@ Your response should simply be a list of bulletpoins per the above example, no y
         <state>archived</state>
         <sys_class_name>sys_generative_ai_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-12 15:28:00</sys_created_on>
+        <sys_created_on>2025-04-26 17:10:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2d26ccb08714ea10c8020fe4dabb3586</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_id>320dc49387852e10c8020fe4dabb3571</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>1526ccb08714ea10c8020fe4dabb357b</sys_name>
         <sys_overrides/>
         <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
         <sys_policy/>
         <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
-        <sys_update_name>sys_generative_ai_config_2d26ccb08714ea10c8020fe4dabb3586</sys_update_name>
+        <sys_update_name>sys_generative_ai_config_320dc49387852e10c8020fe4dabb3571</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-26 16:40:13</sys_updated_on>
+        <sys_updated_on>2025-04-26 19:42:55</sys_updated_on>
         <temperature>0.2</temperature>
-        <version>1</version>
+        <version>4</version>
     </sys_generative_ai_config>
 </record_update>

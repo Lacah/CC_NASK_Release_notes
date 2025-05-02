@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config">
+    <sys_generative_ai_prompt_config action="DELETE">
+        <ai_config display_value="OneExtend Capability Definition: Release Notes Genererator">934445e28701aa10c8020fe4dabb3544</ai_config>
+        <definition display_value="Release Notes Genererator">1526ccb08714ea10c8020fe4dabb357b</definition>
+        <filter_properties/>
+        <filter_type>default</filter_type>
+        <is_default>false</is_default>
+        <order>0</order>
+        <sys_class_name>sys_generative_ai_prompt_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 13:16:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1b4445e28701aa10c8020fe4dabb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>934445e28701aa10c8020fe4dabb3544</sys_name>
+        <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
+        <sys_update_name>sys_generative_ai_prompt_config_1b4445e28701aa10c8020fe4dabb3547</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 13:16:00</sys_updated_on>
+    </sys_generative_ai_prompt_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</application>
+        <file_path/>
+        <instance_id>962d21c46fcc5e00f51e7b2f5d3ee455</instance_id>
+        <instance_name>hackathon072</instance_name>
+        <name>sys_generative_ai_prompt_config_1b4445e28701aa10c8020fe4dabb3547</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config"><sys_generative_ai_prompt_config action="INSERT_OR_UPDATE"><ai_config display_value="OneExtend Capability Definition: Release Notes Genererator">934445e28701aa10c8020fe4dabb3544</ai_config><definition display_value="Release Notes Genererator">1526ccb08714ea10c8020fe4dabb357b</definition><filter_properties/><filter_type>default</filter_type><is_default>false</is_default><order>0</order><sys_class_name>sys_generative_ai_prompt_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-24 13:16:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1b4445e28701aa10c8020fe4dabb3547</sys_id><sys_mod_count>0</sys_mod_count><sys_name>934445e28701aa10c8020fe4dabb3544</sys_name><sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package><sys_policy/><sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope><sys_update_name>sys_generative_ai_prompt_config_1b4445e28701aa10c8020fe4dabb3547</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-24 13:16:00</sys_updated_on></sys_generative_ai_prompt_config></record_update>]]></payload>
+        <payload_hash>1187046784</payload_hash>
+        <record_name>934445e28701aa10c8020fe4dabb3544</record_name>
+        <reverted_from/>
+        <source>7c0f06551b89e6105aab52c8624bcb33</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 13:16:00</sys_created_on>
+        <sys_id>5b4485e28701aa10c8020fe4dabb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19667f0dce00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 13:16:00</sys_updated_on>
+        <type>Generative AI Prompt Config</type>
+        <update_guid>1f4485e2a301aa10dd2d426501bc1736</update_guid>
+        <update_guid_history>1f4485e2a301aa10dd2d426501bc1736:1187046784</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 13:28:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_generative_ai_prompt_config">sys_generative_ai_prompt_config</sys_db_object>
+        <sys_id>2e384bf4326c43f08fe7808fc698d900</sys_id>
+        <sys_metadata>1b4445e28701aa10c8020fe4dabb3547</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>934445e28701aa10c8020fe4dabb3544</sys_name>
+        <sys_package display_value="NASK Release Notes Generator" source="x_snc_nask_relea_0">8f4344308714ea10c8020fe4dabb3509</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NASK Release Notes Generator">8f4344308714ea10c8020fe4dabb3509</sys_scope>
+        <sys_scope_delete display_value="">040d16898f794ffb802cdc5800807851</sys_scope_delete>
+        <sys_update_name>sys_generative_ai_prompt_config_1b4445e28701aa10c8020fe4dabb3547</sys_update_name>
+        <sys_update_version display_value="sys_generative_ai_prompt_config_1b4445e28701aa10c8020fe4dabb3547">5b4485e28701aa10c8020fe4dabb3537</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 13:28:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
